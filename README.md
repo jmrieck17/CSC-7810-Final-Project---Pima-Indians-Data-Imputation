@@ -1,4 +1,7 @@
 # CSC 7810 Final Project - Pima Indians Diabetes
+
+![image](https://user-images.githubusercontent.com/75294739/231504426-6767683c-05c0-4cb3-b20c-53dc3356785e.png)
+
 ## A Study of Imputation Methods and its Impact on Machine Learning Algorithm Performance
 
 
