@@ -1,9 +1,8 @@
 # CSC 7810 Final Project - Pima Indians Diabetes
 
-![image](https://user-images.githubusercontent.com/75294739/231504426-6767683c-05c0-4cb3-b20c-53dc3356785e.png)
-
 ## A Study of Imputation Methods and its Impact on Machine Learning Algorithm Performance
 
+![image](https://user-images.githubusercontent.com/75294739/231504426-6767683c-05c0-4cb3-b20c-53dc3356785e.png)
 
 # Abstract
 This research paper aims to test different imputation methods in filling in missing values using the Pima Indians diabetes dataset, and to evaluate the performance of several machine learning models in predicting diabetes outcomes using the imputed dataset. The dataset contains medical information on Pima Indian women, including several features such as age, body mass index (BMI), and glucose levels. The missing values in the dataset were imputed using different methods, including k-nearest neighbor imputation, linear regression imputation, and random forest imputation. Each imputed dataset was then trained on eight different machine learning models, with cross validation used on each algorithm to find the optimal set of hyper-parameters. The performance of these models was evaluated using area under the curve (AUC) scoring. The study found that imputation methods can significantly impact feature distribution and model performance, with some methods resulting in improved performance and others leading to decreased performance. The KNN model consistently showed improvement across all imputation methods, while the decision tree model had the poorest performance. The best overall performance was achieved by the Keras artificial neural network using random forest imputation, with glucose identified as the most important variable for predicting the diagnosis. The results suggest that careful consideration of imputation methods and learning models is crucial for accurate and effective analysis of data with missing values.
